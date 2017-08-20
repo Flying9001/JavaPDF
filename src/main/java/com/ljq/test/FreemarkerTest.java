@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.xhtmlrenderer.pdf.ITextFontResolver;
 import org.xhtmlrenderer.pdf.ITextRenderer;
 
 import com.lowagie.text.DocumentException;
@@ -92,7 +93,7 @@ public class FreemarkerTest {
 		org.xhtmlrenderer.pdf.ITextRenderer renderer = new ITextRenderer();
 		renderer.setDocument(url);
 
-		org.xhtmlrenderer.pdf.ITextFontResolver fontResolver = renderer
+		ITextFontResolver fontResolver = renderer
 				.getFontResolver();
 		// 解决中文支持问题
 		fontResolver.addFont(BASEPATH + TEMPLATE+"simsun.ttc",
