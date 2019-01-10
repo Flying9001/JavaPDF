@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.ljq</groupId>
-  <artifactId>FreemakerTest</artifactId>
+  <artifactId>javaPDF</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>FreemakerTest</name>
+  <name>javaPDF</name>
   <url>http://maven.apache.org</url>
 
   <properties>

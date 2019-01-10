@@ -1,17 +1,19 @@
 # JavaPDF
 java方式 使用 **Freemarker** 将 **html** 模板生成 **PDF** 文档  
 
-## 注意事项
 
-- 1 HTML 模板的语法要严谨,使用的标签一定要关闭 eg：<meta  标签以及换行符<br 的关闭标签
-- 2 HTML 模板中关于中文部分,必须使用宋体(字体已经包含在项目中,模板请详细参照项目中的test1.html文档)
-- 3 注意跨系统的文件路径问题(项目可以跨系统使用,包括windows/Linux/Unix(Mac))  
 
-    
-## 项目特点  
-  
-- 代码精简，注释详细
-- 代码的可读性以及易用性良好
-- 项目属于初级 java 项目，适合初级开发者练手(老司机路过给一波指点,楼主将不胜感激)
-   
- 
+​    
+
+### 更新说明  
+
+- 2019-01-10  
+
+  PDF 导出功能与 Spring Boot 的整合已经迁移至另一仓库  
+
+  **后期关于 PDF 导出将不再本仓库更新**  
+
+  新仓库地址: [https://github.com/Flying9001/springBootDemo](https://github.com/Flying9001/springBootDemo "https://github.com/Flying9001/springBootDemo")  
+
+  具体教程参考: [springBoot+Freemarker+iText渲染HTML导出PDF](https://github.com/Flying9001/springBootDemo/blob/master/doc/14.springBoot_Freemarker_iText%E6%B8%B2%E6%9F%93HTML%E5%AF%BC%E5%87%BAPDF.md "https://github.com/Flying9001/springBootDemo/blob/master/doc/14.springBoot_Freemarker_iText%E6%B8%B2%E6%9F%93HTML%E5%AF%BC%E5%87%BAPDF.md")  
+
